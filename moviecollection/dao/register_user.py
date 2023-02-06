@@ -2,7 +2,6 @@ import django;django.setup()
 import uuid
 
 from moviecollection.moviesdata.models import User
-# import django;django.setup()
 
 def get_user_by_username(username):
     try:
